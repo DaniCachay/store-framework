@@ -20,12 +20,6 @@
       "stack-layout#brand"
     ]
   },
-  "stack-layout#brand": {
-    "children": [
-      "product-images",
-      "product-brand"
-    ]
-  },
   "flex-layout.col#right": {
     "children": [
       "product-name",
@@ -51,6 +45,19 @@
       "showSavings": true,
       "showListPrice": true
     }
+  },
+  "sku-selector":{
+    "props":{
+      "showValueNameForImageVariation": true,
+      "initialSelection": "empty",
+      "showVariationsErrorMessage": true
+    }
+  },
+  "stack-layout#brand": {
+    "children": [
+      "product-images",
+      "product-brand"
+    ]
   },
   "product-brand":{
     "props":{
