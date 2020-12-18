@@ -86,8 +86,7 @@
   },
   
   "responsive-layout.mobile#mobile": {
-    "children": [
-      "rich-text#mobile", "image#mobile"]
+    "children": ["rich-text#mobile", "image#mobile"]
   },
   
   "rich-text#desktop": {
@@ -109,7 +108,7 @@
   },
   "rich-text#mobile": {
     "props": {
-      "text": "### Your Coffee, Your Way \n ### New Coffee Makers Collection",
+      "text": "### Your Coffee, Your Way \n #### New Coffee Makers Collection",
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
